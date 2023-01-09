@@ -1,0 +1,25 @@
+[UML Diagram]
+
+Class 
+- Blockchain
+- Jornalist
+- Interviewed
+
+Attributes
+- Questions
+- Answers 
+- Encrypted
+- Deadline
+
+Methods
+- Encrypt()
+- SetDeadline()
+- Publish()
+- Validate()
+
+Relationship 
+- Blockchain has Jornalist, Interviewed
+- Jornalist has Questions, Deadline
+- Interviewed has Answers
+- Questions has Encrypted
+- Answers has Encrypted
